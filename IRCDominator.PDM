@@ -1,0 +1,421 @@
+[Root]
+Most Recent Package=IRCDom setup 1
+
+
+[Package|Standard Setup Package 1|DreamChild]
+Icon1=IRCDominator.exe
+Title1=DreamChild
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\nslock15vb5.ocx=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=
+C:\WINNT\system\msnchat30.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\winnt\system32\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\winnt\system32\comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=No
+C:\WINNT\system32\Msinet.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=$(AppPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\nslock15vb5.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system\msnchat30.ocx=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\Msinet.ocx=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=IRCDominator
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package
+ProjectFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild
+ServerSideCab=
+File1=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\setup.exe
+File2=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\Setup.Lst
+File3=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\IRCDominator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=IRCDominator
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|IRCDominator]
+Icon1=IRCDominator.exe
+Title1=IRCDominator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IRCDom setup 1 VB Runtime|DreamChild]
+Icon1=IRCDominator.exe
+Title1=DreamChild
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IRCDom setup 1 VB Runtime|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package
+
+[Package|IRCDom setup 1 VB Runtime|Configure DAO ISAMs]
+Applicable=No
+
+[Package|IRCDom setup 1 VB Runtime|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IRCDom setup 1 VB Runtime|Files Found]
+
+[Package|IRCDom setup 1 VB Runtime|Files Released]
+
+[Package|IRCDom setup 1 VB Runtime|Missing Dependency Information]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\nslock15vb5.ocx=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=
+C:\WINNT\system\msnchat30.ocx=
+C:\Program Files\Ge2 Remote Access Client\richtx32.ocx=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\MSNChat45.ocx=
+
+[Package|IRCDom setup 1 VB Runtime|Out-of-Date Dependency Information]
+C:\WINNT\system32\Splitter.ocx=
+
+[Package|IRCDom setup 1 VB Runtime|Files Added]
+d:\vbstuff\vbprojects\msnchatbots\dreamchild\readme.txt=
+d:\vbstuff\vbprojects\msnchatbots\dreamchild\msnchat45.ocx=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\AutoUpdater.exe=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\PassportGrabber.exe=
+
+[Package|IRCDom setup 1 VB Runtime|Files Removed]
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|IRCDom setup 1 VB Runtime|Files In Project]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\Msinet.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Readme.txt=Yes
+C:\Program Files\Ge2 Remote Access Client\richtx32.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\MSNChat45.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\AutoUpdater.exe=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\PassportGrabber.exe=Yes
+
+[Package|IRCDom setup 1 VB Runtime|Configure Registry Files]
+Applicable=No
+
+[Package|IRCDom setup 1 VB Runtime|Configure Remote Servers]
+Applicable=No
+
+[Package|IRCDom setup 1 VB Runtime|Install Locations]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=$(AppPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\nslock15vb5.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system\msnchat30.ocx=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\Msinet.ocx=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=$(AppPath)
+C:\WINNT\system32\Splitter.ocx=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Readme.txt=$(AppPath)
+C:\Program Files\Ge2 Remote Access Client\richtx32.ocx=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\MSNChat45.ocx=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\AutoUpdater.exe=$(AppPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\PassportGrabber.exe=$(AppPath)
+
+[Package|IRCDom setup 1 VB Runtime|Configure Shared Files]
+Applicable=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Readme.txt=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\MSNChat45.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\AutoUpdater.exe=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\PassportGrabber.exe=No
+
+[Package|IRCDom setup 1 VB Runtime|Distribution]
+Type=single
+Size=
+Title=IRCDominator1.6.0 - With VB Runtime File
+
+[Package|IRCDom setup 1 VB Runtime|Package]
+PackageFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package
+ProjectFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild
+ServerSideCab=
+File1=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\setup.exe
+File2=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\Setup.Lst
+File3=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\IRCDominator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|IRCDom setup 1 VB Runtime|IconGroups]
+Group0=IRCDominator
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|IRCDom setup 1 VB Runtime|IRCDominator]
+Icon1=IRCDominator.exe
+Title1=IRCDominator
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Readme.txt
+Title2=Readme
+StartIn2=$(AppPath)
+Key2=Icon2
+
+
+[Package|IRCDom setup 1|DreamChild]
+Icon1=IRCDominator.exe
+Title1=DreamChild
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IRCDom setup 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\NO VBRuntime
+
+[Package|IRCDom setup 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|IRCDom setup 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IRCDom setup 1|Files Found]
+
+[Package|IRCDom setup 1|Files Released]
+
+[Package|IRCDom setup 1|Missing Dependency Information]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\nslock15vb5.ocx=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=
+C:\WINNT\system\msnchat30.ocx=
+C:\Program Files\Ge2 Remote Access Client\richtx32.ocx=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\MSNChat45.ocx=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\AutoUpdater.exe=
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\PassportGrabber.exe=
+
+[Package|IRCDom setup 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Splitter.ocx=
+
+[Package|IRCDom setup 1|Files Added]
+d:\vbstuff\vbprojects\msnchatbots\dreamchild\readme.txt=
+d:\vbstuff\vbprojects\msnchatbots\dreamchild\msnchat45.ocx=
+d:\vbstuff\vbprojects\msnchatbots\dreamchild\autoupdater.exe=
+d:\vbstuff\vbprojects\msnchatbots\dreamchild\passportgrabber.exe=
+
+[Package|IRCDom setup 1|Files Removed]
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\winnt\system32\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|IRCDom setup 1|Files In Project]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\Msinet.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Readme.txt=Yes
+C:\Program Files\Ge2 Remote Access Client\richtx32.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\MSNChat45.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\AutoUpdater.exe=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\PassportGrabber.exe=Yes
+
+[Package|IRCDom setup 1|Configure Registry Files]
+Applicable=No
+
+[Package|IRCDom setup 1|Configure Remote Servers]
+Applicable=No
+
+[Package|IRCDom setup 1|Install Locations]
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=$(AppPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Splitter.ocx=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\nslock15vb5.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system\msnchat30.ocx=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\Msinet.ocx=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=$(AppPath)
+C:\WINNT\system32\Splitter.ocx=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Readme.txt=$(AppPath)
+C:\Program Files\Ge2 Remote Access Client\richtx32.ocx=$(WinSysPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\MSNChat45.ocx=$(AppPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\AutoUpdater.exe=$(AppPath)
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\PassportGrabber.exe=$(AppPath)
+
+[Package|IRCDom setup 1|Configure Shared Files]
+Applicable=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\IRCDominator.exe=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\msnchat30.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Readme.txt=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\MSNChat45.ocx=Yes
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\AutoUpdater.exe=No
+D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\PassportGrabber.exe=No
+
+[Package|IRCDom setup 1|Distribution]
+Type=single
+Size=
+Title=IRCDominator1.6.0 - No VB Runtime File
+
+[Package|IRCDom setup 1|IconGroups]
+Group0=IRCDominator
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|IRCDom setup 1|IRCDominator]
+Icon1=IRCDominator.exe
+Title1=IRCDominator
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Readme.txt
+Title2=Readme
+StartIn2=$(AppPath)
+Key2=Icon2
+
+[Package|IRCDom setup 1|Package]
+PackageFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\NO VBRuntime
+ProjectFolder=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild
+ServerSideCab=
+File1=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\NO VBRuntime\setup.exe
+File2=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\NO VBRuntime\Setup.Lst
+File3=D:\VBstuff\VBProjects\MSNChatBOTs\DreamChild\Package\NO VBRuntime\IRCDominator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

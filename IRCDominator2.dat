@@ -1,0 +1,45 @@
+[General]
+AutoJoin=True
+ShowTrace=True
+TryJoin=False
+LocalTime=My Time
+MaskLocalTime=False
+AutoJoinKick=False
+RejoinTimer=10
+TestAlive=False
+AliveTimer=1
+NotifyJoins=True
+NotifyLeaves=True
+NotifyAways=True
+PlaySounds=True
+NoFormatting=False
+ChatDisplaySize=1
+ChatFont=Arial
+ChatStyleBold=False
+ChatStyleItalic=False
+ChatColour=1
+WhisperWindow=True
+WhisperNotify=True
+WhisperFont=Arial
+WhisperStyleBold=False
+WhisperStyleItalic=False
+WhisperPrivMessage=False
+WhisperWhisper=True
+WhisperResponse=Not Here
+WhisperColour=1
+WhisperMessage=False
+NoWhispers=False
+ServerIP=207.68.167.253
+ChatOCXVersion=8,00,0210,2201
+ChatCLSID=F58E1CEF-A068-4c15-BA5E-587CAF3EE8C6
+ToolTips=True
+[LastUsed]
+Last Room=DreamRoom
+Last Nick=DreamChild2
+Hex Room=0
+[Advanced]
+AutoKick=0
+AutoP=0
+AutoOwner=0
+AutoHost=0
+AutoV=0

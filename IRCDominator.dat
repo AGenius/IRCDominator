@@ -1,0 +1,153 @@
+[LastUsed]
+Last Room=TheLobby
+Last Nick=AG
+Hex Room=0
+[Advanced]
+AutoKick=0
+AutoP=0
+AutoOwner=0
+AutoHost=0
+AutoV=0
+
+[General]
+AutoJoin=True
+ShowTrace=True
+TryJoin=False
+LocalTime=I am AbsoluteGenius - Creator of IRCDominator - haha
+
+Timer - Stop peeking  :P:P:P
+MaskLocalTime=True
+AutoJoinKick=True
+RejoinTimer=1
+TestAlive=False
+AliveTimer=2
+NotifyJoins=True
+NotifyLeaves=True
+NotifyAways=True
+PlaySounds=True
+NoFormatting=False
+ChatDisplaySize=1
+ChatFont=Comic Sans MS
+ChatStyleBold=True
+ChatStyleItalic=False
+ChatColour=4
+WhisperWindow=True
+WhisperNotify=True
+WhisperFont=Comic Sans MS
+WhisperStyleBold=True
+WhisperStyleItalic=False
+WhisperPrivMessage=False
+WhisperWhisper=True
+WhisperResponse=I am not at my computer right now - try again later
+WhisperColour=7
+WhisperMessage=False
+NoWhispers=False
+Auto Join=False
+ServerIP=207.68.167.253
+ChatOCXVersion=8,00,0210,2201
+ChatCLSID=ECCDBA05-B58F-4509-AE26-CF47B2FFC3FE
+ToolTips=True
+ShowOCXs=False
+AppVersion=1.6.7
+ShowMOTD=False
+UseChatX=True
+
+[Kicks]
+Caps_KickMessage=Stop Shouting Please
+Caps_Message=Stop Shouting!
+Caps_BanTime=1
+Caps_Ban=True
+Caps_NoBan=False
+Caps_Active=True
+Caps_Tolerance=1
+Caps_Kick=False
+Caps_Warn=True
+Scroll_BanTime=1
+Scroll_Kick=False
+Scroll_Active=True
+Scroll_KickMessage=For Goodness sake, Stop Scrolling
+Scroll_Message=Stop Scrolling!, Please
+Scroll_NoBan=True
+Scroll_Ban=False
+Scroll_Tolerance=2
+Scroll_Warning=True
+Advertise_Active=False
+Advertise_NoBan=False
+Advertise_Ban=True
+Advertise_BanTime=7
+Advertise_Message=Dont Advertise
+Profanity_Active=False
+Profanity_BanTime=3
+Profanity_Ban=False
+Profanity_NoBan=True
+Profanity_Message=dont Swear
+KickList_Message=Kick Listed - Bad Person/Porn Links / Advertiser etc etc...
+KickList_Active=True
+
+[TRACE]
+MODES=1
+AUTH=1
+PRIVMSG=1
+JOINS=1
+PARTS=1
+ACCESS=1
+WHISPERS=1
+
+[Passport]
+DefaultURL=http://chat.msn.co.uk
+Email=
+Password=
+LocaleINFO=https://login.passport.com/ppsecure/post.srf?lc=2057&id=2260&
+PassportProfile=4dd0lsFRMFUCOHKtEuE0XoIJC5vqGVbxIceWhXy24CAlW79VaRAk0dSWsj7Pbd104vIFjwEJlFHbVO5JHmJzjJW9VvWQH61RNA86cVcnC3rPz*KZ!xJBxihNPlIhG3xxZepZRwHNvrzk9yGfnVBeNk9rnlW0ZYAGZyYECO1aI3IoehVCymvHVwgSsbr0yqyIfGt3PSp8!xXWMGWarHwhZmMA$$
+PassportTicket=4Gu55T7ieDW3mHnl0QpZHz4xUfXX2cpNfxEROuVBT1Yrwopx6CQLzSCxvyFBfR*S*dqXK0cFgQWc2!lpqoBI5gJw$$
+Cookie=IiefbFiVSvkAVciMTNGjjNH872^n*QFAZypk*UvoUpK7^obbbcfeO5EcScTyEwZfrqFY0pQ6z8V9Qk9oKM6ZuFKOrLecBpKhjZQIFsWe7Nf3SxUK1JfCf52bvHrQXmBzxGG7H9Tvg6o7I7bBTXW8HLWeGwH6IUnjw7PF0jmojomA7Q5OW0TKYGYf9obIgsXgx5zU6Exma10@
+
+[AutoHosting]
+Owners_Active=False
+Hosts_Active=True
+
+[Advertise]
+3Italic=0
+3Bold=0
+3Font=Arial
+3Action=0
+3Message=_
+3=0
+3Interval=1
+3Colour=1
+2Italic=0
+2Bold=0
+2Font=Arial
+2Action=0
+2=0
+2Message=_
+2Interval=1
+2Colour=1
+1Italic=0
+1Bold=1
+1Font=Arial
+1Colour=7
+1Action=1
+1Interval=1
+1Message=
+1=1
+[Welcome]
+Away=1
+Active=1
+RoomMessage=True
+PrivateMessage=False
+Whisper=False
+FontItalic=0
+FontBold=1
+Font=Comic Sans MS
+Message=(h) Hiya %n, Welcome into my Room, Some Rules: If you advertise - You get banned - no scrolling or SHOUTING
+Colour=7
+AwayFont=Century Gothic
+AwayFontBold=0
+AwayFontItalic=0
+AwayPrivateMessage=True
+AwayRoomMessage=False
+AwayMessage=Welcome Back %n. I liked the cup!!
+AwayColour=1
+[AutoUpdater]
+Version=1.6.1
