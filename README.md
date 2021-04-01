@@ -9,3 +9,5 @@ It wont work against MSN anymore as its long gone but might still be useful as i
 Enjoy
 
 Comments welcome
+
+Coded by: Åß§ølµ†€•G€ñïµ§™
