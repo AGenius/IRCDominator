@@ -1,0 +1,9 @@
+Line 89: Class AutoUpdater.ProgYbar of control UpdateStatus was not a loaded control class.
+Line 95: The property name _ExtentX in UpdateStatus is invalid.
+Line 96: The property name _ExtentY in UpdateStatus is invalid.
+Line 99: The property name Max in UpdateStatus is invalid.
+Line 100: The property name Mode in UpdateStatus is invalid.
+Line 101: The property name Border in UpdateStatus is invalid.
+Line 102: The property name Mark in UpdateStatus is invalid.
+Line 103: The property name MarkThicness in UpdateStatus is invalid.
+Line 104: The property name MarkColor in UpdateStatus is invalid.
