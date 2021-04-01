@@ -30,7 +30,7 @@ If you want to read more about it there is plenty of links around the web on the
 
 https://www.enigmaware.co.uk/ircdominator/index.php
 
-https://en.wikipedia.org/wiki/MSN_Chat#Third-party_applications
+https://en.wikipedia.org/wiki/MSN_Chat
 
 It wont work against MSN anymore as its long gone but might still be useful as it still shows how I did lots of the things I did.
 
