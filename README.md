@@ -21,7 +21,7 @@ Some of the features that will be included in future releases of IRCDominatorXTâ
 * Extended Access maintenance - Giving you the ability to make manual entries in the access list much easier.
 
 
-I have decided to pull out my old VB Source code to share
+ ### I have decided to pull out my old VB Source code to share
 
 This project was my baby many many years ago in the time of MSN Chat
 
