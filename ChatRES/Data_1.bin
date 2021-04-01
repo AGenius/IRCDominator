@@ -1,0 +1,21 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {e87a6788-1d0f-4444-8898-1d25829b6755} = s 'MSN Chat Control 4.0'
+		{
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove 'Control'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '131473'
+			}
+			'TypeLib' = s '{0dfe796e-8760-4cbe-bb08-49f589241800}'
+			'Version' = s '1.0'
+		}
+	}
+}

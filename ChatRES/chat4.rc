@@ -1,0 +1,632 @@
+101 REGISTRY "Data_1.bin"
+
+102 REGISTRY "Data_2.bin"
+
+1 TYPELIB "Data_3.bin"
+
+350 WAVE "Data_1.wav"
+
+351 WAVE "Data_2.wav"
+
+354 WAVE "Data_3.wav"
+
+357 WAVE "Data_4.wav"
+
+358 WAVE "Data_5.wav"
+
+109 BITMAP "Bitmap_1.bmp"
+
+110 BITMAP "Bitmap_2.bmp"
+
+111 BITMAP "Bitmap_3.bmp"
+
+112 BITMAP "Bitmap_4.bmp"
+
+113 BITMAP "Bitmap_5.bmp"
+
+114 BITMAP "Bitmap_6.bmp"
+
+115 BITMAP "Bitmap_7.bmp"
+
+116 BITMAP "Bitmap_8.bmp"
+
+117 BITMAP "Bitmap_9.bmp"
+
+118 BITMAP "Bitmap_10.bmp"
+
+119 BITMAP "Bitmap_11.bmp"
+
+120 BITMAP "Bitmap_12.bmp"
+
+121 BITMAP "Bitmap_13.bmp"
+
+122 BITMAP "Bitmap_14.bmp"
+
+123 BITMAP "Bitmap_15.bmp"
+
+124 BITMAP "Bitmap_16.bmp"
+
+125 BITMAP "Bitmap_17.bmp"
+
+126 BITMAP "Bitmap_18.bmp"
+
+127 BITMAP "Bitmap_19.bmp"
+
+128 BITMAP "Bitmap_20.bmp"
+
+129 BITMAP "Bitmap_21.bmp"
+
+130 BITMAP "Bitmap_22.bmp"
+
+131 BITMAP "Bitmap_23.bmp"
+
+132 BITMAP "Bitmap_24.bmp"
+
+133 BITMAP "Bitmap_25.bmp"
+
+134 BITMAP "Bitmap_26.bmp"
+
+135 BITMAP "Bitmap_27.bmp"
+
+136 BITMAP "Bitmap_28.bmp"
+
+137 BITMAP "Bitmap_29.bmp"
+
+138 BITMAP "Bitmap_30.bmp"
+
+139 BITMAP "Bitmap_31.bmp"
+
+140 BITMAP "Bitmap_32.bmp"
+
+141 BITMAP "Bitmap_33.bmp"
+
+142 BITMAP "Bitmap_34.bmp"
+
+143 BITMAP "Bitmap_35.bmp"
+
+144 BITMAP "Bitmap_36.bmp"
+
+145 BITMAP "Bitmap_37.bmp"
+
+146 BITMAP "Bitmap_38.bmp"
+
+147 BITMAP "Bitmap_39.bmp"
+
+148 BITMAP "Bitmap_40.bmp"
+
+149 BITMAP "Bitmap_41.bmp"
+
+150 BITMAP "Bitmap_42.bmp"
+
+151 BITMAP "Bitmap_43.bmp"
+
+152 BITMAP "Bitmap_44.bmp"
+
+153 BITMAP "Bitmap_45.bmp"
+
+306 BITMAP "Bitmap_46.bmp"
+
+307 BITMAP "Bitmap_47.bmp"
+
+308 BITMAP "Bitmap_48.bmp"
+
+309 BITMAP "Bitmap_49.bmp"
+
+311 BITMAP "Bitmap_50.bmp"
+
+312 BITMAP "Bitmap_51.bmp"
+
+320 BITMAP "Bitmap_52.bmp"
+
+331 BITMAP "Bitmap_53.bmp"
+
+333 BITMAP "Bitmap_54.bmp"
+
+334 BITMAP "Bitmap_55.bmp"
+
+336 BITMAP "Bitmap_56.bmp"
+
+337 BITMAP "Bitmap_57.bmp"
+
+600 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "&View Profile",  13000
+	MENUITEM "&Whisper",  13001
+	MENUITEM "&Ignore",  13002
+	MENUITEM SEPARATOR
+	MENUITEM "&Tag User",  13003
+	MENUITEM "&Local Time",  13004
+}
+}
+
+601 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "&View Profile",  13000
+	MENUITEM "&Whisper",  13001
+	MENUITEM "&Ignore",  13002
+	MENUITEM SEPARATOR
+	MENUITEM "&Tag User",  13003
+	MENUITEM "&Local Time",  13004
+	POPUP "&Kick"
+	{
+		MENUITEM "&Disruptive Behavior ",  13008
+		MENUITEM "&Profanity",  13009
+		MENUITEM "&Scrolling",  13010
+		MENUITEM "&Custom Kick/Ban...",  13011
+	}
+	MENUITEM SEPARATOR
+	MENUITEM "&Host",  13005
+	MENUITEM "&Participant",  13006
+	MENUITEM "&Spectator",  13007
+}
+}
+
+602 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+POPUP ""
+{
+	MENUITEM "Cu&t",  13000
+	MENUITEM "&Copy",  13001
+	MENUITEM "&Paste",  13002
+	MENUITEM SEPARATOR
+	MENUITEM "Select &All",  13003
+	MENUITEM "C&lear All",  13004
+}
+}
+
+300 DIALOGEX 0, 0, 418, 266
+STYLE WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION ""
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Tahoma"
+{
+   CONTROL "", 316, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 315, 5, 95, 15 
+}
+
+315 DIALOGEX 0, 0, 303, 322
+STYLE WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION ""
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 8, "Tahoma"
+{
+   CONTROL "8", 334, STATIC, SS_RIGHT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE, 0, 0, 10, 20 
+   CONTROL "My Message Format", 337, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 0, 197, 20 
+   CONTROL "Use this format for messages I send:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 25, 25, 225, 10 
+   CONTROL "&Font:", -1, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 25, 40, 25, 10 
+   CONTROL "", 317, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 53, 40, 105, 65 
+   CONTROL "&Script:", -1, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 176, 40, 24, 10 
+   CONTROL "", 328, COMBOBOX, CBS_DROPDOWNLIST | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 200, 40, 70, 65 
+   CONTROL "Style:", -1, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 25, 60, 20, 10 
+   CONTROL "&Bold", 319, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 60, 60, 30, 10 
+   CONTROL "&Italic", 320, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 110, 60, 30, 10 
+   CONTROL "Co&lor:", -1, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 180, 60, 20, 10 
+   CONTROL "", 318, COMBOBOX, CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 200, 60, 70, 65 
+   CONTROL "", 340, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 79, 270, 1 
+   CONTROL "8", 335, STATIC, SS_RIGHT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE, 0, 85, 10, 20 
+   CONTROL "My Display", 338, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 85, 197, 20 
+   CONTROL "Use this font si&ze for text I see:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 25, 110, 175, 10 
+   CONTROL "", 316, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 200, 110, 70, 45 
+   CONTROL "&Turn off all text formatting", 321, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 125, 130, 10 
+   CONTROL "Turn off &all new whispers", 331, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 140, 130, 10 
+   CONTROL "Show &whispers in a separate window", 330, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 155, 130, 10 
+   CONTROL "", 340, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 174, 270, 1 
+   CONTROL "8", 336, STATIC, SS_RIGHT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE, 0, 180, 10, 20 
+   CONTROL "Event Notifications", 339, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 13, 180, 197, 20 
+   CONTROL "Member ar&rivals", 322, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 205, 86, 10 
+   CONTROL "Member de&partures", 323, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 220, 89, 10 
+   CONTROL "Awa&y and status changes", 324, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 235, 100, 10 
+   CONTROL "Play &event sounds", 329, BUTTON, BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 250, 80, 10 
+   CONTROL "Click the \"Sounds...\" button to assign sounds to events.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 25, 265, 228, 10 
+   CONTROL "S&ounds...", 332, BUTTON, BS_OWNERDRAW | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 275, 50, 15 
+   CONTROL "", 340, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 0, 299, 270, 1 
+   CONTROL "&Use Default", 333, BUTTON, BS_OWNERDRAW | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 25, 305, 50, 15 
+   CONTROL "&Done", 1, BUTTON, BS_OWNERDRAW | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 305, 50, 15 
+   CONTROL "&Cancel", 2, BUTTON, BS_OWNERDRAW | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 220, 305, 50, 15 
+}
+
+350 DIALOGEX 0, 0, 292, 150
+STYLE DS_MODALFRAME | WS_MAXIMIZEBOX | WS_MINIMIZEBOX | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION ""
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 8, "Tahoma"
+{
+   CONTROL "To:", 351, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 4, 4, 12, 12 
+}
+
+365 DIALOG 0, 0, 157, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Log in as Host"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 8, "MS Shell Dlg"
+{
+   CONTROL "", 366, EDIT, ES_LEFT | ES_PASSWORD | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 12, 33, 134, 13 
+   CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 60, 53, 14 
+   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 80, 60, 53, 14 
+   CONTROL "Enter the host keyword for this room:", -1, STATIC, SS_LEFT | SS_CENTERIMAGE | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 5, 143, 25 
+}
+
+370 DIALOG 0, 0, 208, 78
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Custom Kick/Ban"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 8, "MS Shell Dlg"
+{
+   CONTROL "&Kick Message:", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 7, 193, 8 
+   CONTROL "", 371, COMBOBOX, CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 10, 18, 189, 51 
+   CONTROL "&No Ban", 372, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 10, 38, 44, 10 
+   CONTROL "&Ban for:", 373, BUTTON, BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 60, 38, 38, 10 
+   CONTROL "", 374, COMBOBOX, CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 104, 38, 95, 54 
+   CONTROL "OK", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 43, 56, 50, 16 
+   CONTROL "Cancel", 2, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 102, 56, 50, 16 
+}
+
+380 DIALOG 0, 0, 300, 80
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Submit Question"
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+FONT 9, "Tahoma"
+{
+   CONTROL "&Submit", 1, BUTTON, BS_OWNERDRAW | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 60, 70, 14 
+   CONTROL "Ca&ncel", 2, BUTTON, BS_OWNERDRAW | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 220, 60, 70, 14 
+   CONTROL "Type your question in the box below using less than 50 words, and then click Submit.", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 10, 280, 14 
+   CONTROL "", 310, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 10, 30, 280, 20 
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+200, 	"MSNChat"
+201, 	"Small"
+202, 	"Medium"
+203, 	"Large"
+206, 	"&Copy,Select &All,C&lear All"
+207, 	"The room "
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+208, 	" does not exist. Do you want to create it?"
+209, 	"There is already a chat room with this name.\nWould you like to join it?"
+211, 	"The category "
+212, 	" does not exist."
+214, 	" : "
+216, 	" whispers to "
+217, 	": "
+218, 	"Now chatting in room "
+219, 	" as "
+220, 	"."
+221, 	"You have been disconnected from the chat server due to network difficulties.  Please wait while you are reconnected..."
+222, 	"Please wait, connecting to server..."
+223, 	"Connected!"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+225, 	" has joined the conversation."
+227, 	" has left the conversation."
+228, 	"Host "
+229, 	" kicked "
+230, 	" out of the chat room."
+231, 	" out of the chat room: "
+232, 	"You have been kicked out of the chat room by Host "
+233, 	"."
+234, 	": "
+236, 	" has been sending messages to you too rapidly and will be automatically ignored for the next "
+237, 	" minutes."
+239, 	" is no longer being ignored."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+241, 	" is now known as "
+242, 	"."
+243, 	"You are now known as "
+244, 	"."
+246, 	" "
+248, 	" has returned."
+250, 	" is away."
+251, 	"You have been marked as being away."
+252, 	"You are no longer marked as being away."
+254, 	"'s local time: "
+255, 	"You are now ignoring "
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+256, 	"."
+257, 	"You are no longer ignoring "
+258, 	"."
+259, 	"The chat's topic is: "
+260, 	"The chat's topic has changed to: "
+261, 	"The chat has no topic set."
+262, 	"The chat's topic has been reset."
+263, 	"The nickname "
+264, 	" is already in use. You are now known as "
+265, 	"."
+266, 	"Message from the chat server:"
+267, 	"Tahoma"
+268, 	"0"
+269, 	"The current Content Advisor settings prevent you from joining that room."
+270, 	"First type your message, and then click the Send button."
+271, 	"Please type the action or emotion you want to show,\nand then click the ! button."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+272, 	"You are currently not connected...click your browser's Refresh button to reconnect to this chat room."
+273, 	"To whisper, you must first type your message."
+274, 	"You cannot whisper to yourself."
+275, 	"Please select recipients in the member list and try again."
+276, 	"You are trying to whisper to too many people at once. Please select fewer recipients. (Guests may whisper to only one person at a time.)"
+277, 	"The chat room cannot be created because the room name is not allowed or it contains one or more of the following characters: | # % ' \"\nPlease rename your chat room."
+278, 	"The room you are trying to create has an invalid topic. Please try another topic."
+279, 	"The room you are trying to join is protected with a password. You cannot join it."
+280, 	"The room you are trying to join is full. You cannot join it."
+281, 	"Only those who have been invited may enter this room."
+282, 	"Only authenticated users can join this room."
+283, 	"Your nickname is already in use, please try another one."
+284, 	"The server could not be found."
+285, 	"Could not connect to the server."
+286, 	"You have been disconnected from the server."
+287, 	"That nickname is not allowed. Please choose another nickname."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+288, 	"The nickname you specified is too long. Please try a shorter one."
+289, 	"The room name you specified is too long. Please try a shorter one."
+290, 	"The topic you specified is too long. Please type a shorter one."
+291, 	"You are trying to change your nickname too quickly, try again later."
+292, 	"Nickname changes are not permitted at this time, try again later."
+293, 	"Network problems are preventing you from connecting to the chat service.  Please try again later."
+294, 	"You are a spectator in this room and not allowed to communicate."
+295, 	"The message could not be sent."
+296, 	"The message you are trying to send is too long. Please shorten it and try again."
+297, 	"Please reduce the number of recipients or shorten the message you are trying to send and try again."
+298, 	"Please select members to ignore in the member list and try again."
+299, 	"%d people chatting"
+300, 	"MSN Chat"
+303, 	"Away"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+304, 	"This room does not support private messages."
+305, 	"The command you typed is not supported."
+306, 	"You are currently banned by a host in this chat room or banned completely from the MSN Chat service due to violations of the Code of Conduct. You may be able to reconnect at a later time."
+307, 	" invites you to "
+308, 	". Click "
+309, 	" to join that chat room now.  If the person who invited you leaves the chat room before you join it, you may be unable to connect to the chat."
+311, 	"The person you are trying to join or invite cannot be found."
+312, 	"You could not be successfully authenticated by the chat server.  Please try again later."
+313, 	"Attemping to reconnect to server..."
+314, 	"You must be an Owner in this chat room to complete the action you just attempted."
+315, 	"You don't have permission to do that in this chat room."
+316, 	"Your previous message contained profanity and could not be sent.  Please rephrase without using the word \""
+317, 	"\" and try again."
+318, 	"Your previous message could not be sent because that user does not allow Whispers."
+319, 	"Broadcast message from MSN Chat:"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+321, 	" says: "
+323, 	" in "
+324, 	" asks: "
+325, 	"You were unable to join because you are already a member of that room.  Please choose a different room and try again."
+326, 	"The room you are in has been closed.  Please choose a different room and try again."
+327, 	"The room you are in has been moved to a different chat server.  Please wait while you are reconnected..."
+329, 	" has made "
+330, 	" an Owner."
+331, 	" a Host."
+332, 	" a Spectator."
+333, 	" a Participant."
+334, 	"Your invitation to "
+335, 	" was sent."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+336, 	"Thank you! Our guest has received your question and will make every effort to answer it. However, due to the large number of questions submitted, not all questions can be answered."
+337, 	"Your question could not be submited at this time. Please try again."
+345, 	"SWA"
+346, 	"1 person chatting"
+347, 	"MSN Chat"
+348, 	"Chat Options"
+349, 	"&Disruptive Behavior,&Profanity,&Scrolling,&Custom Kick/Ban..."
+350, 	"Incoming Whispers"
+351, 	"Member Arrives"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+352, 	"Member Departs"
+353, 	"Message from Host"
+354, 	"Message from Tagged Member"
+355, 	"Whisper from Host"
+356, 	"Whisper from Tagged Member"
+357, 	"Member is Kicked"
+358, 	"Invitation from Member"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+400, 	"Black"
+401, 	"White"
+402, 	"Maroon"
+403, 	"Green"
+404, 	"Navy"
+405, 	"Olive"
+406, 	"Purple"
+407, 	"Teal"
+408, 	"Silver"
+409, 	"Gray"
+410, 	"Red"
+411, 	"Lime"
+412, 	"Blue"
+413, 	"Yellow"
+414, 	"Fuschia"
+415, 	"Aqua"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+425, 	"Disruptive behavior"
+426, 	"Using profanity in the chatroom"
+427, 	"Excessive scrolling"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+435, 	"15 minutes"
+436, 	"1 hour"
+437, 	"24 hours"
+438, 	" (Access ban set for %s)"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+450, 	"Click here or press ENTER or CTRL+S to send your message"
+451, 	"Click here or press CTRL+W to send your message to only the person(s) you selected above"
+452, 	"Click here or press CTRL+A to display the action/emotion you typed"
+453, 	"Click here to ignore the person(s) you selected above"
+454, 	"Click here to make it easier to keep track of the member(s) selected above"
+455, 	"Click here or press CTRL+Q to ask our guest a question"
+456, 	"Click here to see the public profile of the member selected above"
+457, 	"You are in a chat room created by MSN"
+458, 	"Click here to tell the others you are temporarily away from the chat or that you've returned"
+460, 	"1"
+461, 	"Send"
+462, 	"Submit a Question..."
+463, 	"&Whisper"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+464, 	"View &Profile"
+465, 	"To:"
+470, 	"View this person's public profile"
+471, 	"Ignore this person"
+472, 	"Click here or press CTRL+W to send your message to the person listed above"
+473, 	"Add, change, or remove event sounds"
+474, 	"Restore all original settings"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+501, 	"(Host)"
+502, 	"Nicknames cannot contain the following characters:\n! @ # $ & * ) ( + = ; ' : \" < > , . ? / % \nPlease type a different nickname."
+503, 	"The nickname cannot be changed because: the nickname field is empty."
+505, 	"%s: 1 to 1 whisper"
+506, 	"Guest_"
+507, 	"Invite_"
+508, 	"Your message can not be sent because you have disabled your whisper. Do you want to turn it back on?"
+509, 	"You can only whisper to hosts, guides, or admins in this room."
+510, 	"Whispering to and from guest users is not supported in this room."
+511, 	"First type your question, and then click Submit."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+512, 	"Your invitation to "
+513, 	" could not not be sent. Please try again."
+514, 	" could not not be sent because that user is already in the room."
+515, 	" could not not be sent because that user is not signed on."
+}
+
+
+170 ACCELERATORS
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+	VK_S, 305, NOINVERT, CONTROL, VIRTKEY
+	VK_W, 306, NOINVERT, CONTROL, VIRTKEY
+	VK_A, 307, NOINVERT, CONTROL, VIRTKEY
+	VK_G, 308, NOINVERT, CONTROL, VIRTKEY
+	VK_Q, 310, NOINVERT, CONTROL, VIRTKEY
+	VK_Y, 320, NOINVERT, CONTROL, VIRTKEY
+	VK_I, 302, NOINVERT, CONTROL, VIRTKEY
+	VK_M, 303, NOINVERT, CONTROL, VIRTKEY
+	VK_H, 301, NOINVERT, CONTROL, VIRTKEY
+	VK_E, 304, NOINVERT, CONTROL, VIRTKEY
+}
+
+108 CURSOR "Cursor_1.cur"
+
+160 ICON "Icon_1.ico"
+
+161 ICON "Icon_2.ico"
+
+
+1 VERSIONINFO
+FILEVERSION 2,0,106,2701
+PRODUCTVERSION 2,0,106,2701
+FILEOS 0x4
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "MSN Chat Control"
+		VALUE "FileVersion", "2.00.0106.2701"
+		VALUE "InternalName", "MSNCHAT40"
+		VALUE "LegalCopyright", "Copyright (C) Microsoft Corp. 2001"
+		VALUE "OriginalFilename", "MSNCHAT01.OCX"
+		VALUE "ProductName", "MSN Chat"
+		VALUE "ProductVersion", "Version 1.0"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
+315 240 "Data_4.bin"
+

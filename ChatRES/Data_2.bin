@@ -1,0 +1,21 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {9088e688-063a-4806-a3db-6522712fc061} = s 'ChatSettings Class'
+		{
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove 'Control'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '131473'
+			}
+			'TypeLib' = s '{0dfe796e-8760-4cbe-bb08-49f589241800}'
+			'Version' = s '1.0'
+		}
+	}
+}
