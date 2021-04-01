@@ -23,7 +23,14 @@ Some of the features that will be included in future releases of IRCDominatorXTâ
 
  ### I have decided to pull out my old VB Source code to share
 
-This project was my baby many many years ago in the time of MSN Chat
+This project was my baby many many years ago in the time of MSN Chat.
+I last worked on this back in 2004
+
+If you want to read more about it there is plenty of links around the web on the MSN world
+
+https://www.enigmaware.co.uk/ircdominator/index.php
+
+https://en.wikipedia.org/wiki/MSN_Chat#Third-party_applications
 
 It wont work against MSN anymore as its long gone but might still be useful as it still shows how I did lots of the things I did.
 
